@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f13d4efa-dc59-401b-9c6f-44551c5b0a26")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.4 27.94)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "86964b02-8eb4-4886-b86a-92922a8b4821")
+		(property "Sheetname" "Original Schematic"
+			(at 25.4 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "original_schematic.kicad_sch"
+			(at 25.4 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "popcorn_roaster"
+				(path "/f13d4efa-dc59-401b-9c6f-44551c5b0a26"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 58.42)
+		(size 30.48 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb92b9ad-8e80-443f-add9-2bb9a2358ed7")
+		(property "Sheetname" "Smart Roaster"
+			(at 25.4 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "smart_roaster.kicad_sch"
+			(at 25.4 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "popcorn_roaster"
+				(path "/f13d4efa-dc59-401b-9c6f-44551c5b0a26"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

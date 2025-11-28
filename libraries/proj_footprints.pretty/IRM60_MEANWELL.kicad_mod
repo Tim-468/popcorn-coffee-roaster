@@ -1,0 +1,130 @@
+(footprint "IRM60_MEANWELL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(uuid "9b0915d1-f804-4ed7-9c40-f8d43c464e82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IRM60_MEANWELL"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "44aba38b-91b4-4d0a-ae7f-b020a9c3a788")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6086ccd9-238b-4f6f-bdcc-6b1b382d513e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d00ba138-d045-4f6a-9b01-43a2e695bd85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -43.7 -26.2)
+		(end 43.7 26.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fb7ce76b-3753-4506-87f7-f7409272aaa1")
+	)
+	(fp_rect
+		(start -43.7 -26.2)
+		(end 43.7 26.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8f82efd9-5510-4418-a37f-61fd7235d069")
+	)
+	(fp_rect
+		(start -43.5 -26)
+		(end 43.5 26)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d0d03c60-ef8d-41f7-a7ad-78ce94b78cda")
+	)
+	(pad "1" thru_hole circle
+		(at -38.2 -21)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "74991de4-f874-4e65-8a86-09b67b0d31bc")
+	)
+	(pad "2" thru_hole circle
+		(at -38.2 -14.25)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be4ab107-d4e6-432a-bb37-941b1b63a4c2")
+	)
+	(pad "3" thru_hole circle
+		(at 37.8 20.25)
+		(size 3.2 3.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "45f96488-ea03-46bc-ae2c-1fec9fc68dbe")
+	)
+	(pad "4" thru_hole circle
+		(at 37.8 14.75)
+		(size 3.2 3.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d5a966a-ce65-4411-bbec-a6b79686446f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3dmodels/MEANWELL_IRM-60-24.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

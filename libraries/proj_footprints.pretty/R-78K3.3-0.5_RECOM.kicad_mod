@@ -1,0 +1,124 @@
+(footprint "R-78K3.3-0.5_RECOM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.5 4 0)
+		(layer "F.SilkS")
+		(uuid "2cc24c12-7588-43f3-af97-41d78410a872")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R-78K3.3-0.5_RECOM"
+		(at 2.54 -2.425 0)
+		(layer "F.Fab")
+		(uuid "ad371ae9-f783-4a0e-9afe-4dcdaaf8a7be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f6d281d-1677-453c-91f2-e772e43506c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8de78fb2-b0ea-4120-8545-7bee98aaff7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.71 -6.05)
+		(end 8.79 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9aaea9d6-4ce4-4ca3-a9cd-50551297e6b8")
+	)
+	(fp_rect
+		(start -3.21 -5.55)
+		(end 8.29 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c071739f-efbd-493c-a20e-997c2833eef2")
+	)
+	(fp_text user "*"
+		(at -0.5 4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e81e8390-6073-4085-a200-d7e5b1fa39da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.85 1.85)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "688be054-154e-44c2-a456-65d4917d03f3")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.85 1.85)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "86618e3a-b2c9-4ab0-8008-b47dd4fd746e")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.85 1.85)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "40bea5e2-bf23-47f3-b8df-08872dcea68a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3dmodels/RECOM_R-78K-0.5.STEP"
+		(offset
+			(xyz 2.5 2.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+)
