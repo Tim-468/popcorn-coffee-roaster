@@ -12,6 +12,10 @@ and the versions are numbered incrementally, e.g. v1, v2, v3...
 - Higher series resistor for triac
 - Larger capacitor package (smallest ones 0402 -> 0603) for easier soldering
 
+### Removed
+
+- Unnecessary mounting holes
+
 ## [v2]
 
 ### Added
