@@ -60,6 +60,10 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|15405000|16915694|cef927b0-989f-43f4-a8b3-842ce17981cb|fce92262-49ac-4d8f-a3fc-c41a83a77ac8",
+          ""
+        ],
+        [
           "courtyards_overlap|15768829|63683536|4ecc4d2b-8559-4f3a-a64a-0ecb0ebe004c|859656da-38c9-4007-9619-85400b12a54e",
           ""
         ],
@@ -607,6 +611,12 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "AC_Line",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -614,7 +624,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "AC_Line",
+        "pattern": "/Smart Roaster/N (blue)"
+      },
+      {
+        "netclass": "AC_Line",
+        "pattern": "/Smart Roaster/heat_black"
+      },
+      {
+        "netclass": "AC_Line",
+        "pattern": "/Smart Roaster/heat_blue"
+      },
+      {
+        "netclass": "AC_Line",
+        "pattern": "/Smart Roaster/heat_white"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
